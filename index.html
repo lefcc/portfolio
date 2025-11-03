@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Meta Tags Essenciais -->
+     <meta name="author" content="Letícia Campos">
+     <meta name="description" content="Portfólio de Letícia Campos, desenvolvedora Full Stack especializada em criar experiências digitais incríveis. Conheça meus projetos e entre em contato.">
+     <meta name="robots" content="index, follow">
+
+     <!-- Favicon -->
+      <link rel="icon" href="./assets/img/favicon.svg" type="image/svg+xml">
+
+
+    <title>Portfólio da Letícia</title>
+</head>
+<body>
+
+    <header class=""flex menu_con>
+        
+        <ul>
+            <li><a href="#hero">Início</a></li>
+            <li><a href="#about">Sobre Mim</a></li>
+            <li><a href="#projects">Projetos</a></li>
+            <li><a href="#contact">Contato</a></li>
+        </ul>    
+
+    </header> 
+    
+    <!-- Área principal do Site -->
+    <main>
+
+        <section id="hero" class="hero_container">
+
+            <article class="hero_content">
+                <h4>👋 Olá, eu sou Letícia</h4>
+                <h1>Desenvolvedora Full Stack</h1>
+                <p>Transformo ideias em código e crio experiências digitais incríveis.</p>
+                <div class="hero_buttons">
+                    <a href="#contact" class="botao">Entre em Contato</a>
+                    <a href="#about" class="botao-outline">Saiba mais...</a>
+            </article>
+
+            <figure class="hero_image">
+                <img src="./assets/img/dev_woman.svg" alt="Ilustração com uma pessoa desenvolvedora escrevendo código" class="ilustracao float-animation">
+            </figure>
+
+        </section>
+                
+
+        <section id="about"> 
+            <figure class="about_image">
+                <img src="./assets/img/avatar_dev_woman.svg" alt="Foto da pessoa desenvolvedora." class="ilustracao float-animation">
+            </figure>
+
+            <article class="about_content">
+                <h2>Sobre Mim</h2>
+                <p>Sou Letícia Campos, uma desenvolvedora Full Stack apaixonada por tecnologia e inovação. Com experiência em diversas linguagens de programação e frameworks, estou sempre em busca de novos desafios para aprimorar minhas habilidades e criar soluções eficientes.</p>
+                <p>Adoro trabalhar em equipe e acredito que a colaboração é essencial para o sucesso de qualquer projeto. Vamos construir algo incrível juntos!</p>
+
+                <div class="about_stats">
+                    <a href="#" target="_blank" class="botao">Ver GitHub</a>
+                    <div class="stat-item">
+                        <p class="stat-number">100</p>
+                        <p class="stat-label">Seguidores</p>
+                </div>
+                    <div class="stat-item">
+                        <p class="stat-number">50</p>
+                        <p class="stat-label">Repositório</p>
+                    </div>
+                </div>
+
+        </section>
+
+        <section id="contact"> 
+
+            <article class="contact_info">
+                <h2>Vamos trabalhar juntos?</h2>
+                <p>Se você tem um projeto em mente ou apenas quer dizer oi, adoraria ouvir de você! Sinta-se à vontade para entrar em contato comigo através do formulário abaixo ou pelas minhas redes sociais.</p>
+
+                <div class="social_container">
+                    <a href="https://www.linkedin.com/in/leticiafccampos/" target="_blank" class="social_icon">
+                        <img src="./assets/img/linkedin.svg" 
+                        alt="Link para o LinkedIn">
+                    </a>
+                    <a href="https://github.com/lefcc" target="_blank" class="social_icon">
+                        <img src="./assets/img/github.svg" 
+                        alt="Link para o GitHub">
+                    </a>
+                </div>
+            </article>
+
+            <form id="formulario">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+                <span id="txtNome"></span>
+
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+                <span id="txtemail"></span>
+                
+                <label for="assunto">Assunto:</label>
+                <input type="assunto" id="assunto" name="assunto" placeholder="Digite o assunto da mensagem" required>
+                <span id="txtAssunto"></span>
+                
+                <label for="mensagem">Mensagem:</label>
+                <textarea type="mensagem" id="mensagem" name="mensagem" placeholder="Digite a mensagem" required></textarea>
+                
+
+                <button type="submit" class="botao">Enviar Mensagem</button>
+            
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Feito com ❤️ &copy; 2025 Letícia Campos. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

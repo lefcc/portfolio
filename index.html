@@ -17,16 +17,22 @@
 </head>
 <body>
 
-    <header class=""flex menu_con>
-        
-        <ul>
-            <li><a href="#hero">Início</a></li>
-            <li><a href="#about">Sobre Mim</a></li>
-            <li><a href="#projects">Projetos</a></li>
-            <li><a href="#contact">Contato</a></li>
-        </ul>    
+    <!-- Navbar - Menu  -->
+    <header class="flex menu_container">
+        <article class="menu_content">
+            <div id="titulo">
+                <a href="#">Portfólio</a>
+            </div>
 
-    </header> 
+            <nav>
+                <ul class="flex menu_list">
+                    <li><a href="#hero">Início</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+        </article>
+    </header>
     
     <!-- Área principal do Site -->
     <main>
@@ -56,8 +62,8 @@
 
             <article class="about_content">
                 <h2>Sobre Mim</h2>
-                <p>Sou Letícia Campos, uma desenvolvedora Full Stack apaixonada por tecnologia e inovação. Com experiência em diversas linguagens de programação e frameworks, estou sempre em busca de novos desafios para aprimorar minhas habilidades e criar soluções eficientes.</p>
-                <p>Adoro trabalhar em equipe e acredito que a colaboração é essencial para o sucesso de qualquer projeto. Vamos construir algo incrível juntos!</p>
+                <p>Sou Letícia Campos, desenvolvedora Full-Stack, apaixonada por aprender e por conciliar requisitos de negócio com o desenvolvimento de código limpo e eficiente. Minha experiência de 6 anos otimizando operações em startups de tecnologia me proporcionou uma visão única para entender as necessidades do negócio, competência que agora aplico para colaborar em equipe e construir soluções de software robustas. Atualmente, estou aprofundando minhas habilidades no ecossistema Java através do bootcamp da Generation e do curso técnico na UNICAMP.</p>
+                <p>Vamos construir algo incrível juntos!</p>
 
                 <div class="about_stats">
                     <a href="#" target="_blank" class="botao">Ver GitHub</a>
@@ -97,7 +103,7 @@
                 <span id="txtNome"></span>
 
 
-                <label for="email">Email:</label>
+                <label for="email">E-mail:</label>
                 <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
                 <span id="txtemail"></span>
                 
@@ -106,7 +112,7 @@
                 <span id="txtAssunto"></span>
                 
                 <label for="mensagem">Mensagem:</label>
-                <textarea type="mensagem" id="mensagem" name="mensagem" placeholder="Digite a mensagem" required></textarea>
+                <textarea type="mensagem" id="mensagem" name="mensagem" placeholder="Digite a mensagem aqui..." required></textarea>
                 
 
                 <button type="submit" class="botao">Enviar Mensagem</button>

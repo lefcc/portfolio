@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,8 +9,9 @@
      <meta name="description" content="Portfólio de Letícia Campos, desenvolvedora Full Stack especializada em criar experiências digitais incríveis. Conheça meus projetos e entre em contato.">
      <meta name="robots" content="index, follow">
 
-     <!-- Favicon -->
-      <link rel="icon" href="./assets/img/favicon.svg" type="image/svg+xml">
+     <!-- Favicon (PNG recomendado para compatibilidade) -->
+    <link rel="icon" type="image/svg+xml" href="./assets/img/favicon.png">
+
 
 
     <title>Portfólio da Letícia</title>
@@ -21,7 +22,7 @@
     <header class="flex menu_container">
         <article class="menu_content">
             <div id="titulo">
-                <a href="#">Portfólio</a>
+                <a href="index.html">Portfólio</a>
             </div>
 
             <nav>
@@ -55,12 +56,13 @@
         </section>
                 
 
-        <section id="about"> 
+        <section id="about" class="about_container"> 
             <figure class="about_image">
-                <img src="./assets/img/avatar_dev_woman.svg" alt="Foto da pessoa desenvolvedora." class="ilustracao float-animation">
+                <img src="./assets/img/avatar_dev_woman.svg" alt="Foto da pessoa desenvolvedora.">
             </figure>
 
             <article class="about_content">
+
                 <h2>Sobre Mim</h2>
                 <p>Sou Letícia Campos, desenvolvedora Full-Stack, apaixonada por aprender e por conciliar requisitos de negócio com o desenvolvimento de código limpo e eficiente. Minha experiência de 6 anos otimizando operações em startups de tecnologia me proporcionou uma visão única para entender as necessidades do negócio, competência que agora aplico para colaborar em equipe e construir soluções de software robustas. Atualmente, estou aprofundando minhas habilidades no ecossistema Java através do bootcamp da Generation e do curso técnico na UNICAMP.</p>
                 <p>Vamos construir algo incrível juntos!</p>
@@ -99,20 +101,20 @@
 
             <form id="formulario">
                 <label for="nome">Nome:</label>
-                <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+                <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo">
                 <span id="txtNome"></span>
 
 
                 <label for="email">E-mail:</label>
-                <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+                <input type="email" id="email" name="email" placeholder="Digite seu e-mail">
                 <span id="txtemail"></span>
                 
                 <label for="assunto">Assunto:</label>
-                <input type="assunto" id="assunto" name="assunto" placeholder="Digite o assunto da mensagem" required>
+                <input type="assunto" id="assunto" name="assunto" placeholder="Digite o assunto da mensagem">
                 <span id="txtAssunto"></span>
                 
                 <label for="mensagem">Mensagem:</label>
-                <textarea type="mensagem" id="mensagem" name="mensagem" placeholder="Digite a mensagem aqui..." required></textarea>
+                <textarea type="mensagem" id="mensagem" name="mensagem" placeholder="Digite a mensagem aqui..."></textarea>
                 
 
                 <button type="submit" class="botao">Enviar Mensagem</button>

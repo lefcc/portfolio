@@ -1,27 +1,39 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Meta Tags Essenciais -->
-     <meta name="author" content="Letícia Campos">
-     <meta name="description" content="Portfólio de Letícia Campos, desenvolvedora Full Stack especializada em criar experiências digitais incríveis. Conheça meus projetos e entre em contato.">
-     <meta name="robots" content="index, follow">
 
-     <!-- Favicon -->
-      <link rel="icon" href="./assets/img/favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+
+
+    <meta name="author" content="Letícia Campos">
+    <meta name="description"
+        content="Portfólio de Letícia Campos, desenvolvedora Full Stack especializada em criar experiências digitais incríveis. Conheça meus projetos e entre em contato.">
+    <meta name="robots" content="index, follow">
+
+
+    <link rel="icon" href="./assets/img/favicon.svg" type="image/svg+xml">
+
+    <link rel="stylesheet" href="./assets/css/styles.css">
 
 
     <title>Portfólio da Letícia</title>
 </head>
+
 <body>
 
     <!-- Navbar - Menu  -->
     <header class="flex menu_container">
         <article class="menu_content">
             <div id="titulo">
-                <a href="#">Portfólio</a>
+                <a href="index.html">Portfólio</a>
             </div>
 
             <nav>
@@ -33,7 +45,7 @@
             </nav>
         </article>
     </header>
-    
+
     <!-- Área principal do Site -->
     <main>
 
@@ -49,50 +61,59 @@
             </article>
 
             <figure class="hero_image">
-                <img src="./assets/img/dev_woman.svg" alt="Ilustração com uma pessoa desenvolvedora escrevendo código" class="ilustracao float-animation">
+                <img src="./assets/img/dev_woman.svg" alt="Ilustração com uma pessoa desenvolvedora escrevendo código"
+                    class="ilustracao float-animation">
             </figure>
 
         </section>
-                
 
-        <section id="about"> 
+
+        <section id="about" class="about_container">
             <figure class="about_image">
-                <img src="./assets/img/avatar_dev_woman.svg" alt="Foto da pessoa desenvolvedora." class="ilustracao float-animation">
+                <img src="./assets/img/avatar_dev_woman.svg" alt="Foto da pessoa desenvolvedora."
+                    class="ilustracao float-animation">
             </figure>
 
             <article class="about_content">
                 <h2>Sobre Mim</h2>
-                <p>Sou Letícia Campos, desenvolvedora Full-Stack, apaixonada por aprender e por conciliar requisitos de negócio com o desenvolvimento de código limpo e eficiente. Minha experiência de 6 anos otimizando operações em startups de tecnologia me proporcionou uma visão única para entender as necessidades do negócio, competência que agora aplico para colaborar em equipe e construir soluções de software robustas. Atualmente, estou aprofundando minhas habilidades no ecossistema Java através do bootcamp da Generation e do curso técnico na UNICAMP.</p>
+                <p>Sou Letícia Campos, desenvolvedora Full-Stack, apaixonada por aprender e por conciliar requisitos de
+                    negócio com o desenvolvimento de código limpo e eficiente. Minha experiência de 6 anos otimizando
+                    operações em startups de tecnologia me proporcionou uma visão única para entender as necessidades do
+                    negócio, competência que agora aplico para colaborar em equipe e construir soluções de software
+                    robustas. </p>
+                <p>Atualmente, estou aprofundando minhas habilidades no ecossistema Java através do bootcamp da
+                    Generation e do curso técnico na UNICAMP.</p>
                 <p>Vamos construir algo incrível juntos!</p>
 
                 <div class="about_stats">
                     <a href="#" target="_blank" class="botao">Ver GitHub</a>
-                    <div class="stat-item">
-                        <p class="stat-number">100</p>
-                        <p class="stat-label">Seguidores</p>
-                </div>
-                    <div class="stat-item">
-                        <p class="stat-number">50</p>
-                        <p class="stat-label">Repositório</p>
+                    <div class="stats-container">
+                        <div class="stat-item">
+                            <p class="stat-number">100</p>
+                            <p class="stat-label">Seguidores</p>
+                        </div>
+                        <div class="stat-item">
+                            <p class="stat-number">50</p>
+                            <p class="stat-label">Repositório</p>
+                        </div>
                     </div>
                 </div>
-
+            </article>
         </section>
 
-        <section id="contact"> 
+        <section id="contact">
 
             <article class="contact_info">
                 <h2>Vamos trabalhar juntos?</h2>
-                <p>Se você tem um projeto em mente ou apenas quer dizer oi, adoraria ouvir de você! Sinta-se à vontade para entrar em contato comigo através do formulário abaixo ou pelas minhas redes sociais.</p>
+                <p>Se você tem um projeto em mente ou apenas quer dizer oi, adoraria ouvir de você! Sinta-se à vontade
+                    para entrar em contato comigo através do formulário abaixo ou pelas minhas redes sociais.</p>
 
                 <div class="social_container">
                     <a href="https://www.linkedin.com/in/leticiafccampos/" target="_blank" class="social_icon">
-                        <img src="./assets/img/linkedin.svg" 
-                        alt="Link para o LinkedIn">
+                        <img src="./assets/img/linkedin.svg" alt="Link para o LinkedIn">
                     </a>
                     <a href="https://github.com/lefcc" target="_blank" class="social_icon">
-                        <img src="./assets/img/github.svg" 
-                        alt="Link para o GitHub">
+                        <img src="./assets/img/github.svg" alt="Link para o GitHub">
                     </a>
                 </div>
             </article>
@@ -106,17 +127,18 @@
                 <label for="email">E-mail:</label>
                 <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
                 <span id="txtemail"></span>
-                
+
                 <label for="assunto">Assunto:</label>
                 <input type="assunto" id="assunto" name="assunto" placeholder="Digite o assunto da mensagem" required>
                 <span id="txtAssunto"></span>
-                
+
                 <label for="mensagem">Mensagem:</label>
-                <textarea type="mensagem" id="mensagem" name="mensagem" placeholder="Digite a mensagem aqui..." required></textarea>
-                
+                <textarea type="mensagem" id="mensagem" name="mensagem" placeholder="Digite a mensagem aqui..."
+                    required></textarea>
+
 
                 <button type="submit" class="botao">Enviar Mensagem</button>
-            
+
             </form>
         </section>
     </main>
@@ -125,4 +147,3 @@
         <p>Feito com ❤️ &copy; 2025 Letícia Campos. Todos os direitos reservados.</p>
     </footer>
 </body>
-</html>

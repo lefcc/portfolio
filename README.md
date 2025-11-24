@@ -11,13 +11,37 @@ Este é o repositório do meu site portfólio pessoal, desenvolvido com HTML, CS
 
 <br />
 
-## Tecnologias Utilizadas
+## Visão Geral
+O site foi projetado para ser leve, acessível e totalmente responsivo, garantindo uma ótima experiência em qualquer dispositivo. Ele reflete minha identidade como pessoa desenvolvedora Full Stack e demonstra boas práticas de estrutura semântica, organização de estilos e usabilidade.
 
 <br />
+
+## Estrutura do Projeto
+```
+📁 projeto-portfolio/
+│
+├── 📄 index.html          # Página principal do portfólio
+├── 📄 sucess.html         # Página exibida após envio do formulário
+│
+└── 📁 assets/
+    ├── 📁 css/
+    │   └── styles.css     # Folha de estilos principal
+    ├── 📁 img/            # Imagens e ícones utilizados
+    ├── 📁 js/
+    │   └── scripts.js     # Script principal do site
+    └── 📁 docs/           # Documentação técnica complementar
+        ├── css.md		   # Documentação técnica CSS
+        ├── html.md		   # Documentação técnica HTML
+        └── js.md		   # Documentação técnica JS
+```
+<br />
+
+## Tecnologias Utilizadas
 
 - **HTML**: Estrutura de conteúdo e marcação do site.
 - **CSS**: Estilização e layout das páginas.
 - **JavaScript**: Funcionalidades e interatividade do site.
+- **FormSubmit**: Envio de mensagens via formulário de contato sem backend.
 
 <br />
 
@@ -36,11 +60,11 @@ Para visualizar o projeto localmente, siga as instruções abaixo:
 
 1. Clone o repositório:
 ```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
+git clone https://github.com/lefcc/portfolio.git
 ```
 2. Abra o projeto no Visual Studio Code:
 ```bash
-code seu-repositorio
+code portfolio
 ```
 3. No VSCode, abra um arquivo HTML do projeto (ex: `index.html`).
 4. Clique com o botão direito no editor e selecione **"Open with Live Server"**.  
@@ -50,13 +74,19 @@ Isso abrirá o site em seu navegador padrão, e você poderá visualizar e testa
 
 <br />
 
-## Deploy
-
+## Diferenciais do Projeto
+- Layout 100% responsivo (mobile-first)
+- Paleta de cores harmônica com tons de roxo e cinza
+- Animações suaves (transições e efeitos de flutuação)
+- Formulário funcional com envio automático via e-mail
+- Estrutura de código limpa e semântica, seguindo boas práticas
 <br />
+
+## Deploy
 
 Este site está disponível publicamente através do **GitHub Pages**. Você pode acessar a versão online pelo link abaixo:
 
-- [Portfólio Pessoal](https://seu-usuario.github.io/seu-repositorio)
+- [Portfólio da Letícia](https://lefcc.github.io/portfolio)
 
 <br />
 
